@@ -2,8 +2,8 @@
 dot files for vim etc.
 
 ```shell
-cd config
-mv .tmux.conf .vimrc ~
+curl -fLo ~/.tmux.conf \
+    https://raw.githubusercontent.com/leoua7/config/main/.tmux.conf
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 ```
